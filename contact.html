@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Information</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 500px;
+            margin: 50px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .info {
+            margin: 12px 0;
+            font-size: 16px;
+        }
+
+        .info i {
+            margin-right: 10px;
+        }
+
+        .info a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .info a:hover {
+            color: #1e90ff;
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 250px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        .social {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .social a {
+            margin: 0 12px;
+            font-size: 28px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        /* Brand Colors */
+        .fa-facebook {
+            color: #1877F2;
+        }
+
+        .fa-instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .fa-linkedin {
+            color: #0077B5;
+        }
+
+        .fa-twitter {
+            color: #000000;
+        }
+
+        .social a:hover {
+            transform: scale(1.2);
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            margin-top: 25px;
+            padding: 10px;
+            background: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #0066cc;
+        }
+
+        /* Responsive */
+        @media(max-width: 600px) {
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Contact Information</h2>
+        <hr>
+
+        <div class="info">
+            <i class="fa fa-user"></i> ABC..
+        </div>
+
+        <div class="info">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:example@gmail.com">example@gmail.com</a>
+        </div>
+
+        <div class="info">
+            <i class="fa fa-phone"></i>
+            <a href="tel:+919876543210">+91 ***********</a>
+        </div>
+
+        <div class="info">
+            <i class="fa fa-location-dot"></i> Badhani pathankot india
+        </div>
+
+        <!-- Google Map -->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3371.535896013403!2d75.7507023!3d32.3243201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391c814345731ff7%3A0x8f8e7b143686c58b!2sSri%20Sai%20Group%20of%20Institutes%20Badhani!5e0!3m2!1sen!2sin!4v1772536192909!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+        <!-- Social Media -->
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+
+</body>
+
+</html>
